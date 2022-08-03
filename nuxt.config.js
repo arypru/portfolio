@@ -34,7 +34,20 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxt/postcss8',
+    '@nuxtjs/google-fonts'
   ],
+
+  googleFonts: {
+    display: "swap",
+    families: {
+      Amaranth: {
+        wght: [100, 200, 300, 400, 500, 600, 700, 800, 900]
+      },
+      'Darker Grotesque': {
+        wght: [100, 200, 300, 400, 500, 600, 700, 800, 900]
+      }
+    }
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
