@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 .dark-mode body {
   background: linear-gradient(90deg, rgba(187,49,75,1) 25%, rgba(224,89,104,1) 73%);
   -webkit-background-size: cover;
