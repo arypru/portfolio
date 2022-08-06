@@ -10,6 +10,9 @@ module.exports = {
   ],
 
   theme: {
+    colors: {
+      fucsia: '#FF0E47'
+    },
     extend: {
       fontFamily: {
         amaranth: ["Amaranth"],
