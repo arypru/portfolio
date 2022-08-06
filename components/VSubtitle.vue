@@ -7,14 +7,11 @@
 
 <script>
 export default {
-
   props: {
-
     textoSubTitulo: {
       type: String,
       required: true,
     },
-
     emoji:{
       type: String,
       required: true
