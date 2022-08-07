@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-row items-center justify-center">
-    <a class="cursor-pointer hover:underline tracking-wide leading-relaxed font-darkergrotesque font-medium text-base md:text-2xl"> {{textoLink}} </a>
-    <svg class="h-4 w-4 md:h-6 md:w-6" xmlns="http://www.w3.org/2000/svg" :viewBox="textViewBox" xml:space="preserve">
+    <a class="mr-1 cursor-pointer hover:underline tracking-wide leading-relaxed font-darkergrotesque font-medium text-lg md:text-2xl"> {{textoLink}} </a>
+    <svg class="h-4 w-4 md:h-6 md:w-6 mt-1" xmlns="http://www.w3.org/2000/svg" :viewBox="textViewBox" xml:space="preserve">
       <path :d="textSvg"/>
     </svg>
   </div>
@@ -29,12 +29,12 @@ export default {
 
 <style scoped>
 .dark-mode svg {
-  fill:#FFFFFF;
+  fill:#f17997;
 }
 .light-mode a {
-  color:#FF0E47
+  color:rgb(187, 50, 76)
 }
 .light-mode svg {
-  fill:#FF0E47
+  fill:rgb(187, 50, 76)
 }
 </style>

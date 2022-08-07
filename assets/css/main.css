@@ -3,18 +3,22 @@
 @tailwind utilities;
 
 .dark-mode body {
-  background: linear-gradient(90deg, rgba(187,49,75,1) 25%, rgba(224,89,104,1) 73%);
+  background: linear-gradient(90deg, rgba(124,25,48,1) 46%, rgba(154,39,65,1) 95%);
+  color: #f17997;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
   height:100vh;
-  color: rgb(252, 243, 243)
+}
+
+.dark-mode p {
+  color: #FFFFFF;
 }
 
 .light-mode body {
-  color: rgba(187,49,75,1);
+  color: rgb(187, 50, 76);
 }
 
 .light-mode p {
