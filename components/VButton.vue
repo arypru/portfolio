@@ -18,22 +18,22 @@ export default {
 
 <style scoped>
 .light-mode button {
-  color:#FF0E47;
-  border: 1px solid #FF0E47;
+  color:rgb(187, 50, 76);
+  border: 1px solid rgb(187, 50, 76);
 }
 
 .light-mode button:hover{
   color:#FFF;
-  background-color: #FF0E47;
+  background-color: rgb(187, 50, 76);
 }
 
 .dark-mode button {
-  color:#FFFF;
-  border: 1px solid #FFFF;
+  color:#FFBACA;
+  border: 1px solid #FFBACA;
 }
 
 .dark-mode button:hover{
-  color:#FF0E47;
+  color:rgb(187, 50, 76);
   background-color: #FFF;
 }
 </style>
