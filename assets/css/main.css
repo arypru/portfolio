@@ -31,4 +31,41 @@
   @apply cursor-default;
 }
 
+p::selection {
+  background: rgba(187,49,75,1);
+  color: white;
+  text-shadow: 1px 1px #000;
+}
+
+h1::selection {
+  background: rgba(187,49,75,1);
+  color: white;
+  text-shadow: 1px 1px #fff;
+}
+
+h2::selection {
+  background: rgba(187,49,75,1);
+  color: white;
+  text-shadow: 1px 1px #fff;
+}
+
+h3::selection {
+  background: rgba(187,49,75,1);
+  color: white;
+  text-shadow: 1px 1px #fff;
+}
+
+h4::selection {
+  background: rgba(187,49,75,1);
+  color: white;
+  text-shadow: 1px 1px #fff;
+}
+
+a::selection {
+  background: rgba(187,49,75,1);
+  color: white;
+  text-shadow: 1px 1px #fff;
+}
+
+
 
