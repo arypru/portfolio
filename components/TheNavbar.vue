@@ -1,5 +1,5 @@
 <template>
-  <nav class="h-2/3 flex flex-row justify-center m-5 space-x-1 md:justify-end md:mt-5 md:space-x-4">
+  <nav class="h-2/3 flex flex-row justify-center m-5 space-x-1 lg:justify-end lg:mt-5 lg:space-x-4">
     <VButtonColorMode/>
       <div v-for="link in links">
         <VLink :texto-link="link"/>
