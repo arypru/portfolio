@@ -13,11 +13,11 @@ export default {
   props: {
     textViewBox: {
       type: String,
-      required: true,
+      required: false,
     },
     textSvg: {
       type: String,
-      required: true,
+      required: false,
     },
     textoLink: {
       type: String,
