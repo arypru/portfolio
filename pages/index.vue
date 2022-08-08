@@ -1,6 +1,5 @@
 <template>
   <div>
-    <VButtonColorMode/>
     <VTitle texto-titulo="Titulo"/>
     <VSubtitle texto-sub-titulo="Sub Titulo" emoji="/images/icons/argentina.png"/>
     <VDescription texto-descripcion="consectetur adipisicing elit. Animi atque commodi doloremque et odit, sed suscipit! Impedit quas ratione voluptatem?" emoji="/images/icons/star.png"/>
@@ -12,7 +11,6 @@
 </template>
 
 <script>
-import VButtonColorMode from "../components/VButtonColorMode";
 import VTitle from "../components/VTitle";
 import VSubtitle from "../components/VSubtitle";
 import VDescription from "../components/VDescription";
@@ -22,6 +20,6 @@ import VDivider from "../components/VDivider";
 import VCard from "../components/VCard";
 
 export default {
-  components: {VIcon, VButton, VDescription, VSubtitle, VTitle, VButtonColorMode,VDivider, VCard}
+  components: {VIcon, VButton, VDescription, VSubtitle, VTitle,VDivider, VCard}
 }
 </script>

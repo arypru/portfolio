@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-4 ">
+  <div>
     <label for="default-toggle" class="inline-flex relative items-center cursor-pointer">
 
       <span class="ml-3 text-sm font-medium text-gray-900  mr-5 mt-2">{{ $colorMode.value }}</span>
