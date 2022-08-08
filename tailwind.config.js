@@ -19,6 +19,11 @@ module.exports = {
         darkergrotesque: ['Darker Grotesque']
       }
     },
+    cursor: {
+      default: 'url(/images/cursors/cursor.png), default',
+      pointer: 'url(/images/cursors/seleccione.png), pointer',
+      text: 'url(/images/cursors/mecanografia.png), text'
+    },
   },
   plugins: [require('@tailwindcss/typography')],
 }
