@@ -10,6 +10,9 @@ module.exports = {
   ],
 
   theme: {
+    container: {
+      center: true,
+    },
     colors: {
       fucsia: '#FF0E47'
     },
