@@ -25,7 +25,10 @@
   color: #190101;
 }
 
-
-
+*,
+*:before,
+*:after {
+  @apply cursor-default;
+}
 
 
