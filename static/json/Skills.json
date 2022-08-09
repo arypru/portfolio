@@ -1,0 +1,40 @@
+{
+  "skillsFrontend":[
+    {"srcImagen":"/images/skills/javascript.svg",
+      "textoSkill":"Javascript"} ,
+
+    {"srcImagen":"/images/skills/css.svg",
+      "textoSkill":"CSS"},
+
+    {"srcImagen":"/images/skills/html.svg",
+      "textoSkill":"Html"},
+
+    {"srcImagen":"/images/skills/vuejs.svg",
+      "textoSkill":"Vue.js"},
+
+    {"srcImagen":"/images/skills/vuetify.svg",
+      "textoSkill":"Vuetify"},
+
+    {"srcImagen":"/images/skills/tailwindcss.svg",
+      "textoSkill":"Tailwind CSS"},
+
+    {"srcImagen":"/images/skills/nuxt.svg",
+      "textoSkill":"Nuxt"}
+  ],
+
+
+  "skillsDesign":[
+    {"srcImagen":"/images/skills/responsive.svg",
+      "textoSkill":"Diseño Responsivo"},
+
+    {"srcImagen":"/images/skills/wireframe.svg",
+      "textoSkill":"Prototipado"},
+
+    {"srcImagen":"/images/skills/adobe-illustrator.svg",
+      "textoSkill":"Adobe Illustrator"},
+
+    {"srcImagen":"/images/skills/figma.svg",
+      "textoSkill":"Figma"}
+  ]
+}
+
