@@ -1,0 +1,8 @@
+{
+  "descripciones":[
+    {"textoDescripcion":"Frontend Developer","icon":"/images/icons/computer.png"},
+    {"textoDescripcion":"Vue.js", "icon":"/images/vuejs.svg"},
+    {"textoDescripcion":"Argentina", "icon":"/images/icons/argentina.png"}
+  ]
+}
+
