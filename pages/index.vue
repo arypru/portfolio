@@ -2,9 +2,11 @@
   <div>
     <TheSectionAboutMe/>
     <VDivider/>
-    <TheSectionSkillsTech/>
-    <VDivider/>
-    <TheSectionExperience/>
+    <div class="grid grid-cols-2">
+        <TheSectionExperience/>
+        <TheSectionSkillsTech/>
+    </div>
+
     <VDivider/>
     <TheSectionProyect/>
  </div>

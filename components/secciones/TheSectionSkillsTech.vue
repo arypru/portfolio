@@ -1,6 +1,6 @@
 <template>
     <section>
-      <VSubtitle class="my-8 lg:my-12" emoji="/images/icons/medalla.png" texto-sub-titulo="Skills & Herramientas"/>
+      <VSubtitle emoji="/images/icons/medalla.png" texto-sub-titulo="Habilidades"/>
       <div class="flex flex-row flex-wrap justify-evenly space-x-6 space-y-4 md:my-4 lg:my-6 ">
         <VIcon v-for="skill in SkillsFrontEnd" :key="skill.textoSkill" :src-imagen="skill.srcImagen" :texto-skills="skill.textoSkill"/>
       </div>
