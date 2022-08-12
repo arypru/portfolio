@@ -19,7 +19,8 @@ module.exports = {
     extend: {
       fontFamily: {
         amaranth: ["Amaranth"],
-        darkergrotesque: ['Darker Grotesque']
+        darkergrotesque: ['Darker Grotesque'],
+        mulish:['Mulish']
       }
     },
     cursor: {
