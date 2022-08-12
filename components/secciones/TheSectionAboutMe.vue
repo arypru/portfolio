@@ -1,14 +1,22 @@
 <template>
   <section>
-    <VTitle class="my-12" texto-titulo="Araceli Pruyas de los Angeles I."/>
-    <div class="my-3 md:flex lg:flex-row md:justify-center">
-        <VDescription v-for="descrip in descripciones" :key="descrip.textoDescripcion" class="md:mx-4 md:my-3" :texto-descripcion="descrip.textoDescripcion" :emoji="descrip.icon"/>
+    <div class="grid lg:grid-cols-3 gap-4 m-4 lg:py-24">
+      <div class="lg:col-span-2 place-self-center pt-4">
+        <VTitle  texto-titulo="Araceli Pruyas de los Angeles I."/>
+        <div class="my-5 md:flex lg:flex-row md:justify-center font-bold">
+          <VDescription v-for="descrip in descripciones" :key="descrip.textoDescripcion" class="md:mx-4 md:my-3" :texto-descripcion="descrip.textoDescripcion" :emoji="descrip.icon"/>
+        </div>
+        <VDescription texto-descripcion="Me encanta ser Frontend Engineer porque me permite combinar diseño + programación + creatividad. Teniendo presente la experiencia del usuario" :emoji="'/images/icons/design.png'"/>
+        <div class="my-8 md:flex md:flex-row md:justify-center">
+          <VLink class="mx-5" v-for="red in redesSociales" :key="red.textoLink" :texto-link="red.textoLink" :link="red.link" :text-svg="red.textSvg" :text-view-box="red.viewBox"/>
+        </div>
+      </div>
+
+        <div class="hidden lg:block">
+          <img class="grayscale hover:grayscale-0" loading="lazy" src="/images/experiencia/frontend.svg" alt="Hola">
+        </div>
     </div>
-    <VDescription texto-descripcion="Me encanta ser Frontend Developer porque me permite combinar diseño + programación + creatividad" :emoji="'/images/icons/star.png'"/>
-    <VDescription texto-descripcion="Teniendo presente la experiencia del usuario" :emoji="'/images/icons/design.png'"/>
-    <div class="my-3 md:flex md:flex-row md:justify-center">
-      <VLink class="mx-5" v-for="red in redesSociales" :key="red.textoLink" :texto-link="red.textoLink" :link="red.link" :text-svg="red.textSvg" :text-view-box="red.viewBox"/>
-    </div>
+
   </section>
 </template>
 
