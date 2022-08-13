@@ -2,11 +2,10 @@
   <div>
     <TheSectionAboutMe/>
     <VDivider/>
-    <div class="grid grid-cols-2">
+    <div class="lg:grid lg:grid-cols-2">
         <TheSectionExperience/>
         <TheSectionSkillsTech/>
     </div>
-
     <VDivider/>
     <TheSectionProyect/>
  </div>
@@ -18,7 +17,7 @@ import TheSectionAboutMe from "../components/secciones/TheSectionAboutMe";
 import VDivider from "../components/VDivider";
 import TheSectionSkillsTech from "../components/secciones/TheSectionSkillsTech";
 import TheSectionProyect from "../components/secciones/TheSectionProyect";
-import TheSectionExperience from "../components/secciones/TheSectionExperience"
+import TheSectionExperience from "../components/secciones/TheSectionExperience";
 
 export default {
   components: {VDivider, TheSectionAboutMe, TheSectionSkillsTech, TheSectionProyect, TheSectionExperience}
