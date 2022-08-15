@@ -3,16 +3,15 @@
     <VSubtitle emoji="/images/icons/computer.png" texto-sub-titulo="Experiencia"/>
     <div class="font-darkergrotesque text-xl md:text-2xl mb-6 xl:mb-0">
 
-      <div class="flex justify-center">
-        <a class="w-72 h-8 lg:h-14" href="https://www.instagram.com/susticorrientes/"><img
+      <div class="flex justify-center my-8">
+        <a class="w-42 h-8 lg:h-14" href="https://www.instagram.com/susticorrientes/"><img
           class="cursor-pointer grayscale hover:grayscale-0 h-8 lg:h-14" src="/images/logos/logoSusti-Verde.svg"
           alt="logo"/></a>
       </div>
 
-      <VTimeline :rol="'Frontend Developer'" :tiempo="'Agosto 2020 - Marzo 2022'" :experiencia="frontExperiencia"/>
-      <VTimeline :rol="'UX/UI Designer'" :tiempo="'Enero 2021 - Marzo 2022'" :experiencia="uiuxExperiencie"/>
-      <VTimeline :rol="'Coach'" :tiempo="'Mayo 2021 - Septiembre 2021'" :experiencia="coachExperience"/>
-      <VTimeline :rol="'Lider del Equipo'" :tiempo="'Octubre 2021 - Marzo 2022'" :experiencia="teachLeader"/>
+        <VTimeline :rol="'Frontend Developer'" :tiempo="'Agosto 2020 - Marzo 2022'" :experiencia="frontExperiencia"/>
+        <VTimeline class="py-12" :rol="'UX/UI Designer'" :tiempo="'Enero 2021 - Marzo 2022'" :experiencia="uiuxExperiencie"/>
+        <VTimeline :rol="'Lider del Equipo'" :tiempo="'Octubre 2021 - Marzo 2022'" :experiencia="teachLeader"/>
     </div>
   </section>
 </template>

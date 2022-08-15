@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="space-y-12">
     <TheSectionAboutMe/>
     <VDivider/>
     <div class="lg:grid lg:grid-cols-2">
