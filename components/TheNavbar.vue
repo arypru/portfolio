@@ -12,7 +12,7 @@ import VButtonColorMode from "./VButtonColorMode";
 import VLink from "./VLink";
 
 export default {
-  components: {VButtonColorMode,VLink},
+  components: {VLink,VButtonColorMode},
   data() {
     return {
       links: ['Experiencia', 'Proyectos', 'Contacto'],
