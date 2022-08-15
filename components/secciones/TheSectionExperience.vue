@@ -2,9 +2,13 @@
   <section>
     <VSubtitle emoji="/images/icons/computer.png" texto-sub-titulo="Experiencia"/>
     <div class="font-darkergrotesque text-xl md:text-2xl mb-6 xl:mb-0">
-      <a class="flex justify-center" href="https://www.instagram.com/susticorrientes/"><img
-        class="cursor-pointer grayscale hover:grayscale-0 h-8 lg:h-14" src="/images/logos/logoSusti-Verde.svg"
-        alt="logo"/></a>
+
+      <div class="flex justify-center">
+        <a class="w-72 h-8 lg:h-14" href="https://www.instagram.com/susticorrientes/"><img
+          class="cursor-pointer grayscale hover:grayscale-0 h-8 lg:h-14" src="/images/logos/logoSusti-Verde.svg"
+          alt="logo"/></a>
+      </div>
+
       <VTimeline :rol="'Frontend Developer'" :tiempo="'Agosto 2020 - Marzo 2022'" :experiencia="frontExperiencia"/>
       <VTimeline :rol="'UX/UI Designer'" :tiempo="'Enero 2021 - Marzo 2022'" :experiencia="uiuxExperiencie"/>
       <VTimeline :rol="'Coach'" :tiempo="'Mayo 2021 - Septiembre 2021'" :experiencia="coachExperience"/>
