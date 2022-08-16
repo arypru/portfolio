@@ -3,10 +3,15 @@
     <div class="grid lg:grid-cols-3 gap-4 m-4 lg:py-24">
       <div class="lg:col-span-2 place-self-center pt-4">
         <VTitle  texto-titulo="Araceli Pruyas de los Angeles I."/>
+
+
+
         <div class="my-5 md:flex lg:flex-row md:justify-center font-bold">
           <VDescription v-for="descrip in descripciones" :key="descrip.textoDescripcion" class="md:mx-4 md:my-3" :texto-descripcion="descrip.textoDescripcion" :emoji="descrip.icon"/>
         </div>
-        <VDescription texto-descripcion="Me encanta ser Frontend Engineer porque me permite combinar diseño + programación + creatividad. Teniendo presente la experiencia del usuario" :emoji="'/images/icons/design.png'"/>
+
+        <VDescription texto-descripcion="Me encanta codificar y poder mediante el frontend combinar el diseño, la programación y la creatividad entregando software de calidad y que brinde una buena experiencia al usuario." :emoji="'/images/icons/star.png'"/>
+        <VDescription texto-descripcion="Disfruto de cada oportunidad que tengo para aprender y me adapto rápido a los cambios, además, me gusta aprender y rodearme de gente que me haga mejorar constantemente a nivel personal y profesional. " :emoji="'/images/icons/design.png'"/>
         <div class="my-8 md:flex md:flex-row md:justify-center">
           <VLink class="mx-5" v-for="red in redesSociales" :key="red.textoLink" :texto-link="red.textoLink" :link="red.link" :text-svg="red.textSvg" :text-view-box="red.viewBox"/>
         </div>
