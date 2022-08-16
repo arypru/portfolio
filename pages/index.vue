@@ -2,7 +2,7 @@
   <div class="space-y-12">
     <TheSectionAboutMe/>
     <VDivider/>
-    <div class="lg:grid lg:grid-cols-2">
+    <div class="lg:grid lg:grid-cols-2 lg:gap-20">
       <div>
         <TheSectionExperience/>
       </div>
