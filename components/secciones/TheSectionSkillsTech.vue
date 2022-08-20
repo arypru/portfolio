@@ -2,9 +2,9 @@
   <section>
     <VSubtitle emoji="/images/icons/medalla.png" texto-sub-titulo="Habilidades"/>
     <div class="space-y-12">
-      <VSkill :skills="skillsFrontend" :nombre-skill="'Frontend Developer'"/>
+      <VSkill :skills="skillsFrontend" :nombre-skill="'Frontend'"/>
       <VSkill :skills="skillsUxUi" :nombre-skill="'Design UI/UX'"/>
-      <VSkill :skills="skillsBack" :nombre-skill="'Backend Developer'"/>
+      <VSkill :skills="skillsBack" :nombre-skill="'Backend'"/>
       <VSkill :skills="skillsAgile" :nombre-skill="'Agile Mindset'"/>
     </div>
   </section>
