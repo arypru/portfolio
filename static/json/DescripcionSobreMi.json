@@ -1,6 +1,6 @@
 {
   "descripciones":[
-    {"textoDescripcion":"Frontend Engineer","icon":"/images/icons/computer.png"},
+    {"textoDescripcion":"Frontend Developer","icon":"/images/icons/computer.png"},
     {"textoDescripcion":"Vue.js", "icon":"/images/skills/vuejs.svg"},
     {"textoDescripcion":"Argentina", "icon":"/images/icons/argentina.png"}
   ]

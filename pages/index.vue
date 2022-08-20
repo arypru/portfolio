@@ -13,6 +13,7 @@
     </div>
     <VDivider/>
     <TheSectionProyect id="proyectos"/>
+    <VscrollTopButton/>
  </div>
 
 </template>
@@ -23,9 +24,11 @@ import VDivider from "../components/VDivider";
 import TheSectionSkillsTech from "../components/secciones/TheSectionSkillsTech";
 import TheSectionProyect from "../components/secciones/TheSectionProyect";
 import TheSectionExperience from "../components/secciones/TheSectionExperience";
-import TheSectionEducation from "../components/secciones/TheSectionEducation"
+import TheSectionEducation from "../components/secciones/TheSectionEducation";
+import VscrollTopButton from "../components/VscrollTopButton";
 
 export default {
-  components: {VDivider, TheSectionAboutMe, TheSectionSkillsTech, TheSectionProyect, TheSectionExperience,TheSectionEducation}
+  components: {VscrollTopButton,VDivider, TheSectionAboutMe, TheSectionSkillsTech, TheSectionProyect, TheSectionExperience,TheSectionEducation},
+
 }
 </script>
