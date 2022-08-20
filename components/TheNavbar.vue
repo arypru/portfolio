@@ -17,7 +17,7 @@ export default {
     return {
       // links: ['Skills', 'Experiencia', 'Proyectos'],
       links: [
-        {"texto": "Inicio", "id":"#inicio"},
+        {"texto": "Inicio", "id":"/"},
         {"texto": "Experiencia", "id":"#experiencia"},
         {"texto": "Habilidades", "id":"#skills"},
         {"texto": "Proyectos", "id":"#proyectos"},
