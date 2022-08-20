@@ -1,18 +1,18 @@
 <template>
   <div class="space-y-12">
-    <TheSectionAboutMe/>
+    <TheSectionAboutMe id="inicio"/>
     <VDivider/>
     <div class="lg:grid lg:grid-cols-2 lg:gap-20">
       <div>
-        <TheSectionExperience/>
+        <TheSectionExperience id="experiencia"/>
       </div>
       <div>
-        <TheSectionSkillsTech/>
+        <TheSectionSkillsTech id="skills"/>
         <TheSectionEducation/>
       </div>
     </div>
     <VDivider/>
-    <TheSectionProyect/>
+    <TheSectionProyect id="proyectos"/>
  </div>
 
 </template>
