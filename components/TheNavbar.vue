@@ -1,21 +1,27 @@
 <template>
-  <nav class="h-2/3 flex flex-row justify-center m-5 space-x-1 lg:justify-end lg:mt-5 lg:space-x-4">
+  <nav class="h-2/3 flex flex-column flex-wrap justify-center m-5 space-x-1 lg:justify-end lg:mt-5 lg:space-x-4">
     <VButtonColorMode/>
       <div v-for="link in links">
-        <VLink :texto-link="link"/>
+        <VLinkNavbar :link="link.id" :texto-link="link.texto"/>
     </div>
   </nav>
 </template>
 
 <script>
 import VButtonColorMode from "./VButtonColorMode";
-import VLink from "./VLink";
+import VLinkNavbar from "./VLinkNavbar";
 
 export default {
-  components: {VLink,VButtonColorMode},
+  components: {VLinkNavbar,VButtonColorMode},
   data() {
     return {
-      links: ['Experiencia', 'Proyectos', 'Contacto'],
+      // links: ['Skills', 'Experiencia', 'Proyectos'],
+      links: [
+        {"texto": "Inicio", "id":"#inicio"},
+        {"texto": "Experiencia", "id":"#experiencia"},
+        {"texto": "Habilidades", "id":"#skills"},
+        {"texto": "Proyectos", "id":"#proyectos"},
+      ]
     }
   }
 }
