@@ -27,19 +27,16 @@ export default {
   data() {
     return {
       frontExperiencia: ["Desarrollos que adaptan la interfaz de usuario a diferentes breakpoints",
-        "Optimizacion de codigo mediante la creacion de componentes y codigo reutilizable para futuros proyectos",
-        "Colaboracion con el equipo de diseño y resto del equipo asegurando un producto final de excelencia",
-        "Cooperacion con los desarrolladores backend en el proceso de consumir la API",
-        "Participacion desde el prototipo hasta el lanzamiento del Padron Definitivo y Consultas del Escrutinio Provisorio Elecciones 2021"],
+        "Optimización de código mediante la creación de componentes y código reutilizable para futuros proyectos",
+        "Colaboración con el equipo de diseño y resto del equipo asegurando un producto final de excelencia",
+        "Cooperación con los desarrolladores backend en el proceso de consumir la API",
+        "Participación desde el prototipo hasta el lanzamiento del Padrón Definitivo y Consultas del Escrutinio Provisorio Elecciones 2021"],
 
       uiuxExperiencie: ["Participación en entrevistas, a modo de generar una investigación de usuarios (User research)",
-        "Utilizacion de metodologia Design Thinking",
-        "Generacion de ideas produciendo soluciones para todo tipo de usuario",
+        "Utilización de metodología Design Thinking",
+        "Generación de ideas produciendo soluciones para todo tipo de usuario",
         "Prototipos de pantallas mediante dibujos y con herramientas (por ejemplo, Figma)",
-        "Generacion de logos",
         "Armado de UI Element"],
-
-      coachExperience: ["Coach de un nuevo grupo de 6 desarrolladores trainees"],
 
       teachLeader: ["Responsable de la gestión de 6 personas con diferentes niveles de experiencia, de los cuales 3 desempeñaban el rol de Backend y 3 de Frontend.",
         "Abogar por un estilo de trabajo basado en compartir conocimiento y en el desarrollo colectivo",
