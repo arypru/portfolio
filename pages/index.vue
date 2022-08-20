@@ -13,7 +13,7 @@
     </div>
     <VDivider/>
     <TheSectionProyect id="proyectos"/>
-    <VscrollTopButton/>
+<!--    <VscrollTopButton/>-->
  </div>
 
 </template>
