@@ -18,8 +18,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        amaranth: ["Amaranth"],
-        darkergrotesque: ["Open Sans", "Arial"],
+        delindaAgatha: ["Delinda-Agatha"],
+        ralewayRegular: ["Raleway-Regular"],
       }
     },
     cursor: {
