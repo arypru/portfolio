@@ -1,5 +1,5 @@
 <template>
-  <div class="card flex flex-row font-ralewayRegular p-2 my-8 md:my-4 md:p-5 mx-3 rounded-3xl text-center shadow-inner border">
+  <div class="card flex flex-col lg:flex-row font-ralewayRegular p-2 my-8 md:my-4 md:p-5 mx-3 rounded-3xl text-center shadow-inner border">
 
     <div class="basis-1/2">
       <a class="h-72 flex justify-center my-4" :href="link">
