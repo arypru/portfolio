@@ -13,6 +13,29 @@
   height:100vh;
 }
 
+.light-mode .card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+  background: linear-gradient(196deg, rgba(240,196,206,1) 22%, rgba(227,107,135,1));
+}
+
+.dark-mode .card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+  background: linear-gradient(196deg, rgba(196,98,121,1) 12%, rgba(166,45,72,1) 50%, rgba(121,26,48,1) 90%);
+}
+
+.dark-mode .card:hover h3{
+  color:#FFFFFF;
+}
+.dark-mode .card:hover p{
+  color:#FFFFFF;
+}
+.dark-mode .card:hover h5{
+  color:#FFFFFF;
+}
+
+
 .dark-mode p {
   color: #FFFFFF;
 }
