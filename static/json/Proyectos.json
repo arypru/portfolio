@@ -3,7 +3,7 @@
     {"nombreProyecto":"Encor S.A",
       "imagen": "/images/proyects/mockup-encorsa.png",
       "herramientas":"Vue.js - Vuetify",
-      "descripcionProyecto":  "Landing Page con diferentes secciones como Inicio, Nosotros, etc. para la empresa provincial Energía Correntina Sociedad Anónima, ENCOR S.A.",
+      "descripcionProyecto":  "Landing Page con diferentes secciones como Inicio, Nosotros, etc. para la empresa provincial ENCOR S.A.",
       "fecha": "Marzo, 2021",
       "github": true,
       "online": true,
@@ -14,25 +14,13 @@
     {"nombreProyecto":"Sistema de Expedientes",
       "imagen": "/images/proyects/mockup-sistema.png",
       "herramientas":"Vue.js- Vuex - Vuetify",
-      "descripcionProyecto":  "Sistema que busca optimizar al máximo la gestión de los Expedientes que ingresan de manera demandante en un Tribunal de Cuentas",
+      "descripcionProyecto":  "Sistema que busca optimizar al máximo la gestión de los Expedientes ",
       "fecha": "Agosto - Diciembre 2021",
       "linkOnline": "https://sistema-de-expedientes.vercel.app/",
       "linkGithub":  "https://github.com/arypru/sistema-de-expedientes",
       "github": true,
       "online": true,
       "link": "https://sistema-de-expedientes.vercel.app/"
-    },
-
-
-    {"nombreProyecto":"Escrutinio definitivo elecciones",
-      "imagen": "/images/proyects/mockup-elecciones.png",
-      "herramientas":"Vue.js - Laravel - Vuetify",
-      "descripcionProyecto": "Sistema que muestra el conteo de votos que se realizó tras el proceso electoral 2021 en Corrientes",
-      "fecha": "Mayo - Agosto 2021",
-      "github": false,
-      "online": true,
-      "link": "https://elecciones2021.corrientes.gob.ar/escrutinio",
-      "linkGithub":  "-",
-      "linkOnline": "https://elecciones2021.corrientes.gob.ar/escrutinio"}
+    }
   ]
 }
