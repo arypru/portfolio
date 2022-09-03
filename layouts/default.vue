@@ -15,3 +15,15 @@ export default {
   components: {TheNavbar, TheFooter}
 }
 </script>
+
+<style>
+@font-face {
+  font-family: Delinda-Agatha;
+  src: url('/fonts/Delinda Agatha.otf');
+}
+
+@font-face {
+  font-family: Raleway-Regular;
+  src: url('/fonts/Raleway-Regular.ttf');
+}
+</style>

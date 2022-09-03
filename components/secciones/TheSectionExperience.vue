@@ -1,7 +1,7 @@
 <template>
   <section>
     <VSubtitle emoji="/images/icons/computer.png" texto-sub-titulo="Experiencia"/>
-    <div class="font-darkergrotesque text-xl md:text-2xl mb-6 xl:mb-0">
+    <div class="font-ralewayRegular text-xl md:text-2xl mb-6 xl:mb-0">
 
       <div class="flex justify-center my-8">
         <a class="w-42 h-8 lg:h-14" href="https://www.instagram.com/susticorrientes/"><img

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-red-100 font-darkergrotesque p-2 my-8 md:my-4 md:p-5 mx-3 border rounded-3xl text-center">
+  <div class="bg-red-100 font-ralewayRegular p-2 my-8 md:my-4 md:p-5 mx-3 border rounded-3xl text-center">
 
     <a class="h-72 flex justify-center my-4" :href="link">
       <img class="cursor-pointer h-72" :src="imagenProyecto"/>

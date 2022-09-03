@@ -1,5 +1,5 @@
 <template>
-  <div class="font-darkergrotesque">
+  <div class="font-ralewayRegular">
     <h3 class="text-2xl font-semibold mb-3"> {{ nombreSkill }} </h3>
     <div class="flex flex-row flex-wrap">
       <p v-for="skill in skills"

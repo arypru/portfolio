@@ -1,8 +1,8 @@
 <template>
   <section>
     <div class="grid lg:grid-cols-3 gap-4 m-4 lg:py-24">
-      <div class="lg:col-span-2 place-self-center pt-4">
-        <VTitle  texto-titulo="Araceli Pruyas de los Angeles I."/>
+      <div class="lg:col-span-2 place-self-center items-center pt-4">
+        <VTitle class="md:ml-20 xl:ml-24" texto-titulo="Pruyas Araceli"/>
         <div class="my-5 md:flex lg:flex-row md:justify-center font-bold">
           <VDescription v-for="descrip in descripciones" :key="descrip.textoDescripcion" class="md:mx-4 md:my-3" :texto-descripcion="descrip.textoDescripcion" :emoji="descrip.icon"/>
         </div>

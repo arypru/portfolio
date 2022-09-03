@@ -1,5 +1,5 @@
 <template>
-  <section class="font-darkergrotesque text-xl md:text-2xl mb-6 xl:mb-0">
+  <section class="font-ralewayRegular text-xl md:text-2xl mb-6 xl:mb-0">
     <VSubtitle emoji="/images/icons/educacion.png" texto-sub-titulo="Educación"/>
     <VTimeline :experiencia="skillsEducacion" :rol="'Licenciatura en Sistemas de Información'" :tiempo="'2017-2023'"/>
   </section>
